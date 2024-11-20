@@ -12,10 +12,10 @@ def Extrapolacion_Richardson():
     
     if h2 == h1 / 2:
         Vv = ((4 * D2) - D1) / 3
-        print("RESULTADO :{}".format(Vv))
+        print("El resultado es  :{}".format(Vv))
     else:
         Vv = D2 + ((D2 - D1) / ((h1 / h2) ** 2 - 1))
-        print("RESULTADO :{}".format(Vv))
+        print("El resultado es :{}".format(Vv))
 
     return Vv
 

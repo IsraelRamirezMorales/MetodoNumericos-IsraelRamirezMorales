@@ -1,8 +1,8 @@
 import numpy as np
 
 def newton_cotes():
-    x = np.array([0.2, 0.4, 0.6, 0.8])
-    fx = np.array([1.288, 2.456, 3.464, 4.528])
+    x = np.array([1,2,3,4])
+    fx = np.array([-5,1,9,19])
     a, b, R, i, posiciones = 0, 0.8, 0, -1, 0
     
     # Eliminar el elemento en el índice 2 (el número 3 en este caso)

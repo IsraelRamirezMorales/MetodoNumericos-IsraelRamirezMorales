@@ -2,7 +2,7 @@ import numpy as np
 
 # Definimos la función a integrar
 def f(x):
-    return np.exp(-x**2)
+    return x**2+3*x-9
 
 # Implementación de Gauss-Legendre
 def gauss_legendre(f, a, b, n):
@@ -54,9 +54,9 @@ def gauss_legendre(f, a, b, n):
     return integral
 
 # Intervalo y número de puntos
-a = 1
-b = 1.5  # Puedes cambiar el intervalo si es necesario
-n = 3  # Cambia el número de puntos según la tabla (puede ser 1, 2, 3, 4, 5 o 6)
+a = 0
+b = 4 # Puedes cambiar el intervalo si es necesario
+n = 3 # Cambia el número de puntos según la tabla (puede ser 1, 2, 3, 4, 5 o 6)
 
 # Calculamos la integral
 resultado = gauss_legendre(f, a, b, n)

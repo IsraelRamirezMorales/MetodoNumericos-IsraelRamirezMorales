@@ -1,10 +1,10 @@
 import numpy as np
 
 def f(x):
-    return np.exp(x**4)
+    return x**2+3*x-9
 
-a = -1  # Límite inferior
-b = 1  # Límite superior
+a = 0  # Límite inferior
+b = 4  # Límite superior
 n = 5  # Número de segmentos (deben ser 5)
 
 # Paso

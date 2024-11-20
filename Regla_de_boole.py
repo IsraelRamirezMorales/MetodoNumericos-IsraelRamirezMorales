@@ -2,12 +2,12 @@ import numpy as np
 
 # Definición de la función a integrar
 def f(x):
-    return np.exp(x**4)
+    return x**2+3*x-9
 
 # Parámetros de la integral
-a = -1  # Límite inferior
-b = 1  # Límite superior
-n = 8  # Número de segmentos (para la regla de Boole, debe ser múltiplo de 4)
+a = 0  # Límite inferior
+b = 4  # Límite superior
+n = 4  # Número de segmentos (para la regla de Boole, debe ser múltiplo de 4)
 
 # Paso de discretización
 h = (b - a) / n

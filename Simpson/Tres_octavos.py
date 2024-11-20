@@ -40,12 +40,12 @@ def regla_de_simpson_tres_octavos(funcion_str, a, b, n):
 import math
 
 # Definir la función como una cadena de texto para e^x^4
-funcion_str = "math.exp(x**4)"
+funcion_str = "x**2+3*x-9"
 
 # Parámetros de la integral
-a = -1             # Límite inferior
-b = 1              # Límite superior
-n = 6              # Número de subintervalos (debe ser múltiplo de 3)
+a = 0             # Límite inferior
+b = 4             # Límite superior
+n = 3             # Número de subintervalos (debe ser múltiplo de 3)
 
 # Calcular la integral
 resultado = regla_de_simpson_tres_octavos(funcion_str, a, b, n)

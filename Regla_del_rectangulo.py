@@ -29,12 +29,12 @@ def regla_del_rectangulo(funcion_str, a, b, n):
 import math
 
 # Definir la función como una cadena de texto para e^x^4
-funcion_str = "math.exp(x**4)"
+funcion_str = "x**2+3*x-9"
 
 # Parámetros de la integral
-a = -1             # Límite inferior
-b = 1              # Límite superior
-n = 5         # Número de subintervalos
+a = 0           # Límite inferior
+b = 4              # Límite superior
+n = 120       # Número de subintervalos
 
 # Calcular la integral
 resultado = regla_del_rectangulo(funcion_str, a, b, n)
